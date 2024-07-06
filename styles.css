@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+
+  min-height: 68px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header h3 {
+  color: #f9faf8;
+  font-size: 24px;
+  margin-right: 50px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header li {
+  list-style-type: none;
+  margin: 0 20px 0 20px;
+}
+
+.hero {
+  background-color: #1f2937;
+  height: 550px;
+  padding-top: 100px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero .right,
+.hero .left {
+  width: 500px;
+}
+
+.right {
+  margin: auto;
+}
+
+.right img {
+  margin-right: 80px;
+  height: 250px;
+  width: 600px;
+}
+
+.left p {
+  margin: 10px 0 10px 0;
+}
+
+.container {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+  height: 36px;
+  width: 130px;
+  margin-top: 1px;
+  border-radius: 10px;
+  border: none;
+}
+
+.main-section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  font-size: 26px;
+}
+
+.main-section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 68px;
+  width: 1300px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.piece {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+}
+
+.illustration {
+  width: 220px;
+  height: 220px;
+  border: 3px solid blue;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.piece p {
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial div {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quote {
+  width: 900px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  align-self: center;
+}
+
+.citation {
+  font-weight: 500;
+  width: 170px;
+  align-self: flex-end;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 1200px;
+  height: 160px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+.cta-container div button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+  height: 36px;
+  width: 130px;
+  margin-top: 1px;
+  border-radius: 10px;
+  border: solid 2px white;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 80px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
